@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 
 intents = discord.Intents.all()  # 모든 인텐트 활성화
@@ -146,8 +147,9 @@ async def set_log_channel(ctx, log_type: str, channel: discord.TextChannel):
 
 
 
+access_token = os.environ["BOT_TOKEN"]
 
-bot.run('MTI3OTA4NTExMDk3MjM4NzM2OA.GTFsRs.xNwalcSHq3GN9WONot4eFpc2Lk_1ig_B8q-jFY')
+bot.run('access_token')
 
 
 
