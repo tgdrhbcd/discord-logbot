@@ -147,7 +147,7 @@ async def set_log_channel(ctx, log_type: str, channel: discord.TextChannel):
 
 
 
-bot.run('MTI3OTA4NTExMDk3MjM4NzM2OA.GSipOp.pbYB6Cr9q7XFAIvoHhD85a66DzJmVCZ1QI2Zo4')
+bot.run('MTI3OTA4NTExMDk3MjM4NzM2OA.GSyJEX.JSceDCgxeNCXG26DElV5b2vTz928-rYdshAmsE')
 
 
 
